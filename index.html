@@ -1,313 +1,117 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LokiStore</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Segoe UI,sans-serif;
-    scroll-behavior:smooth;
-}
-
-body{
-    background:#0A0A0A;
-    color:white;
-}
-
-.hero img{
-    width:100%;
-    height:400px;
-    object-fit:cover;
-}
-
-.container{
-    max-width:1000px;
-    margin:auto;
-    padding:20px;
-}
-
-.card{
-    background:#141414;
-    border:1px solid #FFD700;
-    border-radius:15px;
-    padding:20px;
-    margin-top:20px;
-}
-
-.btn{
-    display:block;
-    width:100%;
-    text-align:center;
-    padding:15px;
-    border-radius:10px;
-    text-decoration:none;
-    font-weight:bold;
-    margin-top:15px;
-    cursor:pointer;
-    border:none;
-    transition:.2s;
-}
-
-.btn:hover{
-    transform:translateY(-2px);
-}
-
-.yellow{
-    background:#FFD700;
-    color:black;
-}
-
-.gray{
-    background:#222;
-    color:white;
-}
-
-.online{
-    background:#0f2412;
-    border:1px solid #4cff67;
-    color:#4cff67;
-    padding:15px;
-    border-radius:10px;
-    margin-top:15px;
-}
-
-.offline{
-    background:#241818;
-    border:1px solid #ff6868;
-    color:#ff6868;
-    padding:15px;
-    border-radius:10px;
-    margin-top:15px;
-}
-
-.popup{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,.85);
-    display:none;
-    justify-content:center;
-    align-items:center;
-    padding:20px;
-}
-
-.popup-box{
-    background:#141414;
-    border:1px solid #FFD700;
-    border-radius:15px;
-    padding:25px;
-    max-width:500px;
-    width:100%;
-    text-align:center;
-}
-
-.close{
-    background:#FFD700;
-    color:black;
-    border:none;
-    border-radius:10px;
-    padding:15px;
-    width:100%;
-    margin-top:15px;
-    font-weight:bold;
-    cursor:pointer;
-}
-
-footer{
-    text-align:center;
-    padding:30px;
-    opacity:.7;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LokiStore | Jual Akun CDID dan DDS Amanah</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="site-header">
+        <nav class="nav">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">L</span>
+                <span>
+                    <strong>LokiStore</strong>
+                    <span>Akun CDID dan Drag Drive Simulator Amanah</span>
+                </span>
+            </a>
+        </nav>
+    </header>
 
-<section class="hero">
-    <img src="banner.png" alt="Banner LokiStore">
-</section>
+    <main>
+        <section class="hero">
+            <div class="hero-media">
+                <img src="banner.png" alt="Banner LokiStore spesialis akun CDID">
+            </div>
 
-<div class="container">
+            <div class="hero-content">
+                <div class="hero-copy">
+                    <p class="eyebrow">Trusted Seller Indonesia</p>
+                    <h1>Jual Akun <span class="gold-text">CDID</span> dan <span class="gold-text">DDS</span> Amanah</h1>
+                    <p class="lead">
+                        LokiStore siap bantu kamu cari akun game dengan proses cepat, admin responsif,
+                        informasi jelas, dan transaksi yang dibuat senyaman mungkin.
+                    </p>
+                    <div class="actions">
+                        <a class="btn btn-primary" href="#akun">Lihat Akun</a>
+                    </div>
+                </div>
 
-<div class="card">
+                <aside class="premium-panel">
+                    <p class="eyebrow">Kenapa LokiStore?</p>
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <span>Akun aman dan dicek sebelum transaksi</span>
+                            <strong>Terjamin</strong>
+                        </div>
+                        <div class="contact-item">
+                            <span>Admin aktif membantu pilih akun</span>
+                            <strong>Responsif</strong>
+                        </div>
+                        <div class="contact-item">
+                            <span>Order langsung melalui WhatsApp</span>
+                            <strong>Mudah</strong>
+                        </div>
+                    </div>
+                </aside>
+            </div>
 
-<h1>🖤💛 LokiStore</h1>
+            <div class="hype-strip" aria-label="Keunggulan LokiStore">
+                <div>
+                    <strong>100%</strong>
+                    <span>Amanah</span>
+                </div>
+                <div>
+                    <strong>Fast</strong>
+                    <span>Respon Admin</span>
+                </div>
+                <div>
+                    <strong>WA</strong>
+                    <span>Order Langsung</span>
+                </div>
+                <div>
+                    <strong>CDID</strong>
+                    <span>Stok Terbaru</span>
+                </div>
+            </div>
+        </section>
 
-<br>
+        <section class="section" id="akun">
+            <h2>Pilih Kategori Akun</h2>
+            <div class="grid two">
+                <article class="card product-card">
+                    <img class="product-thumb" src="cdid-thumbnail.png" alt="Thumbnail akun CDID">
+                    <span class="tag">Car Driving Indonesia</span>
+                    <h3>Akun CDID</h3>
+                    <p>
+                        Cocok untuk kamu yang ingin langsung menikmati progres, koleksi kendaraan,
+                        uang game, dan detail akun sesuai stok terbaru dari admin.
+                    </p>
+                    <div class="actions">
+                        <a class="btn btn-primary" href="cdid.html">Lihat Akun</a>
+                    </div>
+                </article>
 
-<p>
-Spesialis Akun CDID Indonesia
-<br><br>
-⚡ Pengiriman Cepat • 🛡️ Full Garansi • 🤝 Pelayanan Terbaik
-<br><br>
+                <article class="card product-card coming-card">
+                    <img class="product-thumb" src="dds-thumbnail.png" alt="Thumbnail Drag Drive Simulator">
+                    <span class="tag">Drag Drive Simulator</span>
+                    <h3>Akun DDS</h3>
+                    <p class="soon">Coming Soon</p>
+                    <p>
+                        Kategori Drag Drive Simulator sedang disiapkan supaya tampilannya lebih rapi
+                        dan stoknya bisa diumumkan dengan jelas.
+                    </p>
+                </article>
+            </div>
+        </section>
 
-<p style="opacity:0.85;line-height:1.8;">
-Selamat datang di LokiStore, tempat terbaik untuk mencari akun
-Car Driving Indonesia (CDID) dengan proses yang cepat, aman,
-dan mudah. Kami menyediakan layanan yang sederhana tanpa proses
-yang membingungkan. Cukup hubungi admin, lihat stok yang tersedia,
-dan pilih akun yang sesuai dengan kebutuhan Anda.
-</p>
+    </main>
 
+    <footer class="footer">
+        LokiStore 2026 - Spesialis akun CDID dan Drag Drive Simulator amanah.
+    </footer>
 
-</div>
-
-<section id="order">
-
-<div class="card">
-
-<h2>⚠️ Informasi</h2>
-
-<br>
-
-<p>
-Karena stok akun CDID selalu berubah setiap saat,
-admin tidak dapat menampilkan seluruh akun yang tersedia di website.
-<br><br>
-Untuk melihat akun yang tersedia saat ini beserta spesifikasinya,
-silakan pilih salah satu opsi di bawah ini.
-</p>
-
-<a href="#admin" class="btn yellow">
-🟢 Order Sekarang
-</a>
-
-<button onclick="bukaPopup()" class="btn gray">
-🚫 Engga dulu deh
-</button>
-
-</div>
-
-</section>
-<div class="card">
-
-<h2>🖤 Tentang LokiStore</h2>
-
-<br>
-
-<p>
-<p>
-LokiStore merupakan platform yang berfokus pada penyediaan akun Car Driving Indonesia (CDID) dengan pelayanan yang cepat, aman, dan terpercaya. Kami hadir untuk membantu para pemain mendapatkan akun yang sesuai dengan kebutuhan mereka melalui proses yang sederhana, jelas, dan mudah dipahami. Sejak awal berdiri, LokiStore memiliki tujuan untuk memberikan pengalaman transaksi yang nyaman bagi seluruh pelanggan tanpa prosedur yang rumit maupun membingungkan.
-</p>
-
-<p>
-Kami memahami bahwa setiap pemain memiliki tujuan bermain yang berbeda. Sebagian pemain mencari akun dengan koleksi kendaraan yang lengkap, sebagian lainnya menginginkan akun dengan progres permainan yang tinggi, dan tidak sedikit pula yang mencari akun untuk langsung menikmati berbagai fitur yang tersedia tanpa harus memulai dari awal. Oleh karena itu, LokiStore berusaha memberikan pelayanan yang fleksibel agar setiap pelanggan dapat menemukan akun yang sesuai dengan kebutuhan dan preferensi mereka.
-</p>
-
-<p>
-Dalam dunia jual beli akun game, kejelasan informasi merupakan salah satu hal yang paling penting. Karena itu, kami selalu berusaha memberikan informasi yang transparan mengenai akun yang tersedia. Pelanggan dapat menghubungi admin secara langsung untuk memperoleh informasi terbaru mengenai spesifikasi akun, kendaraan yang dimiliki, jumlah uang dalam permainan, aset yang tersedia, serta berbagai detail lainnya yang diperlukan sebelum melakukan pembelian.
-</p>
-
-<p>
-LokiStore tidak menampilkan seluruh akun secara langsung di website karena stok dapat berubah sewaktu-waktu. Dengan sistem ini, pelanggan dapat memperoleh informasi yang lebih akurat dan terkini dibandingkan daftar akun yang jarang diperbarui. Kami percaya bahwa memberikan informasi secara langsung merupakan cara terbaik untuk memastikan pelanggan memperoleh data yang benar dan sesuai dengan kondisi stok yang tersedia saat itu.
-</p>
-
-<p>
-Kami juga memahami bahwa kepercayaan merupakan hal yang sangat penting dalam setiap transaksi digital. Oleh karena itu, kami selalu berusaha memberikan pelayanan yang jujur, ramah, dan profesional kepada seluruh pelanggan. Setiap pertanyaan akan dijawab dengan sebaik mungkin selama jam operasional berlangsung sehingga pelanggan dapat merasa lebih nyaman sebelum melakukan transaksi.
-</p>
-</p>
-
-</div>
-<section id="admin">
-
-<div class="card">
-
-<h2>👥 Pilih Admin</h2>
-
-<p>
-Silakan pilih admin yang ingin Anda hubungi.
-</p>
-
-<div id="status"></div>
-
-<a
-class="btn yellow"
-href="https://wa.me/6282210343615?text=Halo%20Admin%201%20LokiStore%20👋%20Saya%20ingin%20melihat%20akun%20CDID%20yang%20tersedia."
-target="_blank">
-📱 Chat Admin 1
-</a>
-
-<a
-class="btn yellow"
-href="https://wa.me/62895366922727?text=Halo%20Admin%202%20LokiStore%20👋%20Saya%20ingin%20melihat%20akun%20CDID%20yang%20tersedia."
-target="_blank">
-📱 Chat Admin 2
-</a>
-
-</div>
-
-</section>
-
-</div>
-
-<footer>
-© 2026 LokiStore • Spesialis Akun CDID Indonesia
-</footer>
-
-<div class="popup" id="popup">
-
-<div class="popup-box">
-
-<h2>👋🏻 Selamat tinggal!</h2>
-
-<br>
-
-<p>
-Semoga harimu menyenangkan 😄
-<br><br>
-Kalau nanti kepikiran beli akun CDID,
-LokiStore masih di sini kok 🙏🚗
-</p>
-
-<button class="close" onclick="tutupPopup()">
-🏠 Kembali
-</button>
-
-</div>
-
-</div>
-
-<script>
-
-function bukaPopup(){
-    document.getElementById("popup").style.display="flex";
-}
-
-function tutupPopup(){
-    document.getElementById("popup").style.display="none";
-}
-
-const jam = new Date().getHours();
-
-if(jam >= 9 && jam < 21){
-
-document.getElementById("status").innerHTML=`
-<div class="online">
-🟢 Admin Sedang Online<br>
-Jam Operasional: 09:00 - 21:00 WIB
-</div>
-`;
-
-}else{
-
-document.getElementById("status").innerHTML=`
-<div class="offline">
-😴 Admin Sedang Offline<br>
-Jam Operasional: 09:00 - 21:00 WIB
-<br><br>
-Pesan tetap dapat dikirim dan akan dibalas saat admin online.
-</div>
-`;
-
-}
-
-</script>
-
+    <script src="script.js"></script>
 </body>
 </html>
